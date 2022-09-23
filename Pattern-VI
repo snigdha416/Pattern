@@ -1,0 +1,7 @@
+Write a Python program to print the given pattern from user-defined values(dynamic values).
+
+n=int(input())
+j=0
+for i in range(n,0,-1):
+    print(" " *j+"*" *i)
+    j=j+1
